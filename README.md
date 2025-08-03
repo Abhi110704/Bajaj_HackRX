@@ -59,7 +59,7 @@ PERPLEXITY_API_KEY=pplx-xxxxxxxxxxxxxxxxxxxxxx   # Optional
 
 3. **Run the API**
 ```bash
-uvicorn hackrx_policy_aware_final:app --reload
+uvicorn hackrx_final_robust_api_cleaned:app
 ```
 
 4. **Test at Swagger UI**
