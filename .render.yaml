@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fastapi-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn hackrx_final_robust_api_cleaned:app --host=0.0.0.0 --port=${PORT}
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: YOUR_ENV_KEY
+        value: your_env_value  # Add all needed vars here or configure in dashboard
