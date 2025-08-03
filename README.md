@@ -35,8 +35,6 @@ HackRx_Complete_Submission/
 ├── hackrx_policy_aware_final.py        # Main FastAPI backend
 ├── requirements.txt                    # Python dependencies
 ├── .env.example                        # Example env with token and keys
-├── Dockerfile                          # For container build
-├── docker-compose.yml                  # For local & scalable deployment
 ├── HackRx_Local_Testing_Guide.txt      # Manual testing instructions
 ```
 
